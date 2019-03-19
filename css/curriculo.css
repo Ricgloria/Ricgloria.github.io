@@ -84,18 +84,26 @@ main{
 
 .dados-texto{
     color: aliceblue;
+    width: 50em;
 }
 
 .experiencia-texto{
     color: aliceblue;
+    width: 50em;
 }
 
 .outras-texto{
     color: aliceblue;
+    width: 50em;
 }
 
 .bloco p{
-    font-size: 150%; 
+    font-size: 150%;
+    text-align: justify; 
+}
+
+.texto-experiencia{
+    text-align: justify;
 }
 
 .icones-sociais li{
