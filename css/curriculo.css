@@ -51,34 +51,38 @@ main{
 #s_dados{
     background-color: rgb(51, 50, 50);
     justify-content: center;
+    align-content: center;
     align-items: center;
     display: flex;
 }
 #s_experiencias{
     background-color: rgb(93, 37, 145); 
     align-items: center;
+    align-content: center;
     justify-content: center;
-    display: inline-flex;
-
+    display: flex;
 }
 #s_outros{
     background-color: rgb(109, 34, 34); 
     align-items: center;
+    align-content: center;
     justify-content: center;
-    display: inline-flex;
-
+    display: flex;
 }
 .dados-texto{
     color: aliceblue;
     width: auto;
+    margin: auto;
 }
 .experiencia-texto{
     color: aliceblue;
-    width: 60%;
+    width: 70%;
+    margin: auto;
 }
 .outras-texto{
     color: aliceblue;
     width: auto;
+    margin: auto;
 }
 .bloco p{
     font-size: 150%;
