@@ -3,18 +3,15 @@ body{
     background-color:rgb(109, 34, 34);
     background-attachment: fixed;
 }
-
 main{
     position: relative;
 }
-
 .navegacao{
     width: 100%;
     height: 50px;
     position: fixed;
     display: flex;
 }
-
 .navegacao label{
     padding: 10px 0;
     flex-grow: 1;
@@ -26,46 +23,37 @@ main{
     font-size: 200%;
     color: #fff;
 }
-
 .scroll input{
     display: none;
 }
-
 .scroll{
     display: flex;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
-
 .navegacao label:hover{
     background-color: rgba(255, 255, 255, .2);
 }
-
 .sections{
     transition: all .4s;
 }
-
 #experiencias:checked ~ .sections{
     margin-top: -100vh;
 }
-
 #outros:checked ~ .sections{
     margin-top: -200vh;
 }
-
 .bloco{
     width: 100vw;
     height: 100vh;
 }
-
 #s_dados{
     background-color: rgb(51, 50, 50);
     justify-content: center;
     align-items: center;
     display: flex;
 }
-
 #s_experiencias{
     background-color: rgb(93, 37, 145); 
     align-items: center;
@@ -73,7 +61,6 @@ main{
     display: inline-flex;
 
 }
-
 #s_outros{
     background-color: rgb(109, 34, 34); 
     align-items: center;
@@ -81,35 +68,28 @@ main{
     display: inline-flex;
 
 }
-
 .dados-texto{
     color: aliceblue;
     width: auto;
 }
-
 .experiencia-texto{
     color: aliceblue;
     width: 60%;
 }
-
 .outras-texto{
     color: aliceblue;
     width: auto;
 }
-
 .bloco p{
     font-size: 150%;
     text-align: justify; 
 }
-
 .texto-experiencia{
     text-align: justify;
 }
-
 .icones-sociais li{
     display: inline-block;
 }
-
 .icones img{
     width: 60px; 
     height: 60px;
@@ -118,16 +98,13 @@ main{
     justify-content: center;
     box-sizing: border-box;
     border-radius: 100%;
-    
 }
-
 .icones-sociais img:hover{
     cursor: pointer;
     transform: translateY(-2px);
     box-shadow: 2px 8px 8px 0px rgba(207, 207, 207, 0.5);
     background-color: transparent;
 }
-
 .rodape{
     background-color: rgba(0, 0, 0, .7);
     position: fixed; 
@@ -140,11 +117,9 @@ main{
     height: 30px;
     color: white;
 }
-
 strong{
     font-weight: bold;
 }
-
 em{
     font-style: italic;
 }
