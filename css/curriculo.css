@@ -71,21 +71,21 @@ main{
 }
 .dados-texto{
     color: aliceblue;
-    width: auto;
+    width: 48.5em;
     margin: auto;
 }
 .experiencia-texto{
     color: aliceblue;
-    width: 70%;
+    width: 50em;
     margin: auto;
 }
 .outras-texto{
     color: aliceblue;
-    width: auto;
+    width: 44em;
     margin: auto;
 }
 .bloco p{
-    font-size: 150%;
+    font-size: 160%;
     text-align: justify; 
 }
 .texto-experiencia{
