@@ -101,7 +101,7 @@ main{
     align-content: center;
     justify-content: center;
     box-sizing: border-box;
-    padding-left: 5px;
+    padding-left: 2px; 
  }
 .linkedin i:hover{
     cursor: pointer;
@@ -112,7 +112,6 @@ main{
     color: #272f33;
 }
 .rodape{
-    background-color: rgba(0, 0, 0, .7);
     position: fixed; 
     box-sizing: border-box;
     clear: both;   
