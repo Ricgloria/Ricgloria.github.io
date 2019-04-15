@@ -95,12 +95,6 @@ main{
     font-size: 160%;
     text-align: justify; 
 }
-@media (max-width: 600px){
-    .bloco p{
-        font-size: 200% !important;
-        color: aqua;
-    }
-}
 .texto-experiencia{
     text-align: justify;
 }
@@ -143,4 +137,9 @@ strong{
 }
 em{
     font-style: italic;
+}
+@media (max-width: 600px){
+    .bloco p{
+        font-size: 200% !important;
+    }
 }
