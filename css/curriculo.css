@@ -49,7 +49,7 @@ main{
     height: 100vh;
 }
 #s_dados{
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(43, 41, 41);
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -74,10 +74,17 @@ main{
     width: 48.5em;
     margin: auto;
 }
+.dados-texto p{
+    padding: 3px 0;
+    text-align: justify;
+}
 .experiencia-texto{
     color: aliceblue;
     width: 50em;
     margin: auto;
+}
+.experiencia-texto p{
+    padding: 3px 0;
 }
 .outras-texto{
     color: aliceblue;
@@ -88,20 +95,29 @@ main{
     font-size: 160%;
     text-align: justify; 
 }
+@media (max-width: 600px){
+    .bloco p{
+        font-size: 200% !important;
+    }
+}
 .texto-experiencia{
     text-align: justify;
 }
 .icones-sociais li{
     display: inline-block;
 }
+.icones{
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
 .icones a i{
     color: aliceblue;
     font-size: 50px;
     transition: all .5s ease-out;
-    align-content: center;
-    justify-content: center;
-    box-sizing: border-box;
-    padding-left: 2px; 
+    padding: 5px 0;
  }
 .linkedin i:hover{
     cursor: pointer;
@@ -109,7 +125,7 @@ main{
 }
 .github i:hover{
     cursor: pointer;
-    color: #272f33;
+    color: #595a5a;
 }
 .rodape{
     position: fixed; 
