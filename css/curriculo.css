@@ -111,7 +111,7 @@ main{
     color: aliceblue;
     font-size: 50px;
     transition: all .5s ease-out;
-    padding:0 3px;
+    padding:0 2px;
  }
 .linkedin i:hover{
     cursor: pointer;
