@@ -92,8 +92,7 @@ h1{
     margin: auto;
 }
 .dados-texto p{
-    padding: 3px 0;
-    text-align: justify;
+    line-height: 1.5em;
 }
 .experiencia-texto{
     color: aliceblue;
@@ -101,12 +100,15 @@ h1{
     margin: auto;
 }
 .experiencia-texto p{
-    padding: 3px 0;
+    line-height: 1.3em;
 }
 .outras-texto{
     color: aliceblue;
     width: 44em;
     margin: auto;
+}
+.outras-texto p{
+    line-height: 1.2em;
 }
 .bloco p{
     font-size: 145%;
