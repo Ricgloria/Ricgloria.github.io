@@ -155,7 +155,33 @@ em{
     font-style: italic;
 }
 @media (max-width: 600px){
+    .navegacao label{
+        font-size: 100%;
+        padding-top: 4%;
+    }
+    .foto-perfil{
+        height: 50%;
+        width: 50%;
+    }
+    h1{
+        font-size: 150%;
+    }
     .bloco p{
-        font-size: 200% !important;
+        font-size: 95% !important;
+    }
+    .dados-texto{
+        width: 85%;
+    }
+    .experiencia-texto{
+        width: 85%;
+    }
+    .outras-texto{
+        width: 85%;
+    }
+    .icones a i{
+        font-size: 200%;
+    }
+    .rodape{
+        font-size: 65%;
     }
 }
