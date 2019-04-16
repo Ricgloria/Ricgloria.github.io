@@ -108,7 +108,7 @@ h1{
     margin: auto;
 }
 .bloco p{
-    font-size: 160%;
+    font-size: 145%;
     text-align: justify; 
 }
 .texto-experiencia{
@@ -125,7 +125,7 @@ h1{
 }
 .icones a i{
     color: aliceblue;
-    font-size: 50px;
+    font-size: 40px;
     transition: all .5s ease-out;
     padding:0 2px;
  }
@@ -167,7 +167,7 @@ em{
         font-size: 150%;
     }
     .bloco p{
-        font-size: 95% !important;
+        font-size: 85% !important;
     }
     .dados-texto{
         width: 85%;
