@@ -52,13 +52,14 @@ main{
     display: flex;
 }
 .foto-perfil{
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     border: 2px solid black;
     border-radius: 50%;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 }
 h1{
     font-size: 300%;
@@ -160,14 +161,15 @@ em{
         padding-top: 4%;
     }
     .foto-perfil{
-        height: 45%;
-        width: 45%;
+        height: 50%;
+        width: 50%;
+        margin-bottom: 5%;
     }
     h1{
         font-size: 130%;
     }
     .bloco p{
-        font-size: 60% !important;
+        font-size: 70% !important;
     }
     .dados-texto{
         width: 85%;
@@ -179,7 +181,7 @@ em{
         width: 85%;
     }
     .icones a i{
-        font-size: 200%;
+        font-size: 160%;
     }
     .rodape{
         display: none;
