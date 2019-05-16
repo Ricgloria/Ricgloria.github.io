@@ -171,13 +171,44 @@ strong{
 em{
     font-style: italic;
 }
+
+@media (max-width: 1660px){
+    .navegacao label{
+        font-size: 180%;
+    }
+    .foto-perfil{
+        height: 30%;
+        width: 30%;
+        margin: auto;
+    }
+    h1{
+        font-size: 190%;
+        padding: 2%;
+    }
+    .bloco p{
+        font-size: 135% !important;
+    }
+    .dados-texto{
+        width: 45%;
+    }
+    .experiencia-texto{
+        width: 45%;
+    }
+    .outras-texto{
+        width: 45%;
+    }
+    .icones a i{
+        font-size: 160%;
+    }
+}
+
 @media (max-width: 1300px){
     .navegacao label{
         font-size: 150%;
     }
     .foto-perfil{
-        height: 25%;
-        width: 25%;
+        height: 28%;
+        width: 28%;
         margin: auto;
     }
     h1{
