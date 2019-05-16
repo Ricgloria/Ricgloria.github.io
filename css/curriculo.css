@@ -64,6 +64,7 @@ main{
 h1{
     font-size: 300%;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 #s_dados{
     background-color: rgb(36, 35, 35);
@@ -90,6 +91,9 @@ h1{
     color: aliceblue;
     width: 48.5em;
     margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .dados-texto p{
     line-height: 1.5em;
@@ -98,6 +102,9 @@ h1{
     color: aliceblue;
     width: 50em;
     margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .experiencia-texto p{
     line-height: 1.3em;
@@ -106,13 +113,17 @@ h1{
     color: aliceblue;
     width: 44em;
     margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .outras-texto p{
     line-height: 1.2em;
 }
 .bloco p{
     font-size: 145%;
-    text-align: justify; 
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif; 
 }
 .texto-experiencia{
     text-align: justify;
@@ -146,10 +157,13 @@ h1{
     clear: both;   
     bottom: 0;
     width: 100%;
-    padding-left: 2em;
-    padding-top: .5em;
+    padding-top: .9em;
+    padding-right: 2em;
     height: 30px;
+    font-size: 80%;
+    text-align: right;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 strong{
     font-weight: bold;
@@ -157,6 +171,36 @@ strong{
 em{
     font-style: italic;
 }
+@media (max-width: 1300px){
+    .navegacao label{
+        font-size: 150%;
+    }
+    .foto-perfil{
+        height: 25%;
+        width: 25%;
+        margin: auto;
+    }
+    h1{
+        font-size: 180%;
+        padding: 2%;
+    }
+    .bloco p{
+        font-size: 120% !important;
+    }
+    .dados-texto{
+        width: 45%;
+    }
+    .experiencia-texto{
+        width: 45%;
+    }
+    .outras-texto{
+        width: 45%;
+    }
+    .icones a i{
+        font-size: 160%;
+    }
+}
+
 @media (max-width: 600px){
     .navegacao label{
         font-size: 100%;
